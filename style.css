@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
+    
+}
+body{
+ width: 85%;
+
+ margin: 0 auto;
+ font-family: 'Lacquer', cursive;
+ text-align: center;
+
+}
+#title{
+    font-size: 60px;
+    margin: 30px;
+}
+.text .intro{
+    font-size: 35px;
+    padding: 20px;
+}
+.fade{
+    font-size: 25px;
+}
+.choose{
+    padding: 40px;
+    font-size: 20px;
+}
+#weapon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.button img{
+    width: 150px;
+}
+#score-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+   
+}
+.border{
+    height: 70px;
+    border: 2px solid;
+    width: 0px;
+    border-left: 4px;
+    margin-top: 40px;
+}
+.label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.score{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+}
+#result-container{
+    font-size: 40px;
+    padding: 10px;
+}
+button{
+    font-size: 28px;
+    padding: 24px;
+    font-family: 'lacquer';
+    border: none;
+    cursor: pointer;
+}

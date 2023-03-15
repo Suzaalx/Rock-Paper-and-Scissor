@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper and Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+    <header>
+    <h1 id="title">Boksi - Rock, paper ,and Scissor</h1>
+    </header>
+<div class="box">
+    <div class="text">
+        <h2 class="intro">Do you have what is takes to be a hero?</h2>
+        <p class="fade"> Beat the computer and save the world in game of 5 round.</p>
+        <p class="choose">Choose your weapon!</p>
+    </div>
+    <div class="game" id="game-container">
+        <div id="weapon">
+            <div class="button" id="rock">
+                <img src="image/stone.png" alt="rock">
+            </div>
+            <div class="button" id="paper">
+                <img src="image/paper.png" alt="paper">
+            </div>
+            <div class="button" id="scissors">
+                <img src="image/scissor.png" alt="scissors">
+            </div>
+        </div>
+            <div id="score-label">
+                <div id="player">
+                  <p class="label">You</p>
+                  <p class="score" id="player-score">0</p>
+                </div>
+                <div class="border"></div>
+                <div id="computer">
+                  <p class="label">Computer</p>
+                  <p class="score" id="computer-score">0</p>
+                </div>
+                
+            </div>
+            <div id="result-container"></div>
+            
+        
+
+    </div>
+ </div>
+</main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
